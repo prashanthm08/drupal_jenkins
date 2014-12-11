@@ -13,5 +13,5 @@ function drupal_jenkins_dev_deploy_install() {
  * @ticketid: Enable javascript aggregation
  */
 function drupal_jenkins_dev_deploy_update_1() {
-  module_enable(array('toolbar'));
+  module_disable(array('toolbar'));
 }
