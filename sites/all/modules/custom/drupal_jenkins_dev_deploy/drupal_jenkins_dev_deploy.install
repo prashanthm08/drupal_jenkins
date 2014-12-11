@@ -1,0 +1,17 @@
+<?php
+/**
+ * Implements hook_install().
+ *
+ */
+function drupal_jenkins_dev_deploy_install() {
+  if(function_exists('drupal_jenkins_dev_deploy_update_1')) {
+      drupal_jenkins_dev_deploy_update_1();
+  }
+}
+
+/**
+ * @ticketid: Enable javascript aggregation
+ */
+function drupal_jenkins_dev_deploy_update_1() {
+  module_enable(array('toolbar'));
+}
