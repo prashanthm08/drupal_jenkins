@@ -4,8 +4,8 @@
  *
  */
 function drupal_jenkins_dev_deploy_install() {
-  if(function_exists('drupal_jenkins_dev_deploy_update_4')) {
-      drupal_jenkins_dev_deploy_update_4();
+  if(function_exists('drupal_jenkins_dev_deploy_update_5')) {
+      drupal_jenkins_dev_deploy_update_5();
   }
 }
 
@@ -23,5 +23,8 @@ function drupal_jenkins_dev_deploy_update_3() {
 }
 function drupal_jenkins_dev_deploy_update_4() {
   module_disable(array('toolbar'));
+}
+function drupal_jenkins_dev_deploy_update_5() {
+  module_enable(array('toolbar'));
 }
 
