@@ -18,4 +18,6 @@ function drupal_jenkins_dev_deploy_update_1() {
 function drupal_jenkins_dev_deploy_update_2() {
   module_enable(array('toolbar'));
 }
-
+function drupal_jenkins_dev_deploy_update_3() {
+  module_disable(array('toolbar'));
+}
