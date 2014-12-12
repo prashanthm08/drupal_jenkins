@@ -30,4 +30,7 @@ function drupal_jenkins_dev_deploy_update_5() {
 function drupal_jenkins_dev_deploy_update_6() {
   module_disable(array('toolbar'));
 }
+function drupal_jenkins_dev_deploy_update_7() {
+  module_enable(array('toolbar'));
+}
 
