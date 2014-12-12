@@ -27,4 +27,7 @@ function drupal_jenkins_dev_deploy_update_4() {
 function drupal_jenkins_dev_deploy_update_5() {
   module_enable(array('toolbar'));
 }
+function drupal_jenkins_dev_deploy_update_6() {
+  module_disable(array('toolbar'));
+}
 
