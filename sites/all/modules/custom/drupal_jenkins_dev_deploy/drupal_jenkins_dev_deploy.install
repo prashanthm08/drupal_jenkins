@@ -15,3 +15,7 @@ function drupal_jenkins_dev_deploy_install() {
 function drupal_jenkins_dev_deploy_update_1() {
   module_disable(array('toolbar'));
 }
+function drupal_jenkins_dev_deploy_update_2() {
+  module_enable(array('toolbar'));
+}
+
