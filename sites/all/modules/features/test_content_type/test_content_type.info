@@ -1,0 +1,13 @@
+name = Test Content Type
+description = Test Content Type Feature
+core = 7.x
+package = Features
+version = 7.x-1.0
+project = test_content_type
+dependencies[] = node
+dependencies[] = text
+features[features_api][] = api:2
+features[node][] = test
+features_exclude[dependencies][features] = features
+features_exclude[field_base][body] = body
+features_exclude[field_instance][node-test-body] = node-test-body
