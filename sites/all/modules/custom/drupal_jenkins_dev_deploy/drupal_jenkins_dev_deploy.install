@@ -4,8 +4,8 @@
  *
  */
 function drupal_jenkins_dev_deploy_install() {
-  if(function_exists('drupal_jenkins_dev_deploy_update_15')) {
-      drupal_jenkins_dev_deploy_update_15();
+  if(function_exists('drupal_jenkins_dev_deploy_update_16')) {
+      drupal_jenkins_dev_deploy_update_16();
   }
 }
 
