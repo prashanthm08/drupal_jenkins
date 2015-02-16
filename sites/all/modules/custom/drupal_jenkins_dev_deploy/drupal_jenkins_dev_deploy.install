@@ -57,6 +57,9 @@ function drupal_jenkins_dev_deploy_update_14() {
   module_disable(array('toolbar'));
 }
 function drupal_jenkins_dev_deploy_update_15() {
-  module_disable(array('test_content_type'));
+  module_enable(array('features', 'test_content_type'));
+}
+function drupal_jenkins_dev_deploy_update_16() {
+  module_enable(array('features', 'test_content_type'));
 }
 
