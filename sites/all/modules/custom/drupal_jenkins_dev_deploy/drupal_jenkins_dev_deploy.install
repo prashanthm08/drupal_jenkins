@@ -4,8 +4,8 @@
  *
  */
 function drupal_jenkins_dev_deploy_install() {
-  if(function_exists('drupal_jenkins_dev_deploy_update_16')) {
-      drupal_jenkins_dev_deploy_update_16();
+  if(function_exists('drupal_jenkins_dev_deploy_update_17')) {
+      drupal_jenkins_dev_deploy_update_17();
   }
 }
 
@@ -61,5 +61,8 @@ function drupal_jenkins_dev_deploy_update_15() {
 }
 function drupal_jenkins_dev_deploy_update_16() {
   module_enable(array('features', 'test_content_type'));
+}
+function drupal_jenkins_dev_deploy_update_17() {
+  module_enable(array('deploy_development_process'));
 }
 

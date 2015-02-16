@@ -1,0 +1,12 @@
+name = Deploy_Development_Process
+core = 7.x
+package = Features
+version = 7.x-1.0
+project = deploy_development_process
+dependencies[] = node
+dependencies[] = text
+features[features_api][] = api:2
+features[node][] = development_process
+features_exclude[dependencies][features] = features
+features_exclude[field_base][body] = body
+features_exclude[field_instance][node-development_process-body] = node-development_process-body

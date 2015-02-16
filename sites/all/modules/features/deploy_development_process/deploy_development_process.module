@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Deploy_Development_Process feature.
+ */
+
+include_once 'deploy_development_process.features.inc';
