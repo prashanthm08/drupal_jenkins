@@ -1,7 +1,7 @@
 <?php
 /**
- * Custom Drupal Deploy Module.
  * Implements hook_install().
+ * Custom Module to write changes made for deployment.
  *
  */
 function drupal_jenkins_dev_deploy_install() {
