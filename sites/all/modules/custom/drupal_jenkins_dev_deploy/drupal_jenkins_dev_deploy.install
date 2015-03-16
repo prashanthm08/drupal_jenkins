@@ -66,4 +66,7 @@ function drupal_jenkins_dev_deploy_update_16() {
 function drupal_jenkins_dev_deploy_update_17() {
   module_disable(array('deploy_development_process'));
 }
+function drupal_jenkins_dev_deploy_update_18() {
+  module_disable(array('deploy_development_process'));
+}
 
